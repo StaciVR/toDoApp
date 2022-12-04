@@ -163,3 +163,20 @@ img {
   align-items: center;
   padding: 2%;
 }
+
+/* styling for some elemensts that require responsive changes for various viewports*/
+@media screen and (max-width: 640px) {
+  #taskBar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #submitBtn {
+    width: 100%;
+  }
+
+  #userInput {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}
