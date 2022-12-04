@@ -1,0 +1,165 @@
+/* universal styling*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* styling for body of the page*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  color: #003049;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* styling for headeline of page*/
+h1 {
+  margin: auto;
+  padding-top: 25px;
+}
+
+/* styling for the box that contains the input section and button*/
+#container {
+  background-color: #8EC5FC;
+  padding: 20px;
+  margin: 2% 5% 2% 5%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+}
+
+/*this styles the input box itself*/
+#userInput {
+  background-color: rgba(224, 195, 252, 0.2);
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 1%;
+  margin: 0%;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+}
+
+/*styling for input box which only applies on hover*/
+#userInput:hover {
+  background-color: #E0C3FC;
+  transition: 0.2s;
+}
+
+/*styling for submit/addtask button */
+#submitBtn {
+  background-color: #8EC5FC;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+/*styling for submit button which only applies on hover*/
+#submitBtn:hover {
+  background-color: #4c86bf;
+  transition: 0.2s;
+}
+
+/* box within box for button & input field */
+#taskBar {
+  position: relative;
+  background-color: #ffffff;
+  padding: 2%;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+  display: flex;
+  border-radius: 5px;
+}
+
+/* styling for the div in which the to do will be created*/
+#tasks {
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 0%;
+  margin-left: 15%;
+  box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+  border-radius: 3px;
+  width: 70%;
+}
+
+
+/* styling for image which was added for visual appeal*/
+img {
+  width: 100%;
+  height: 20%;
+  margin-top: 3%;
+}
+
+.task {
+  background-color: #ffffff;
+  padding: 0.2% 3% 0.8% 3%;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+/* styling for the task input*/
+#listInput {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 80%;
+  border: none;
+}
+
+
+/*styling for delete icon/edit functionality within the task input*/
+#delete {
+  background-color: #8EC5FC;
+  color: #ffffff;
+  padding: 1% 7% 2% 5%;
+  width: 5%;
+  height: 8%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+#delete:hover {
+  background-color: #4c86bf;
+  transition: 0.2s;
+}
+
+.edit {
+  background-color: #E0C3FC;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.edit:hover {
+  background-color: #4c86bf;
+  transition: 0.2s;
+}
+
+/*styling for strike through when task is complete*/
+.completed {
+  text-decoration: line-through solid #4c86bf;
+}
+
+/*styling for task/list input */
+.toDoList div div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
