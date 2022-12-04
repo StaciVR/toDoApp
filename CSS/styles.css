@@ -156,7 +156,7 @@ img {
   text-decoration: line-through solid #4c86bf;
 }
 
-/*styling for task/list input */
+/*styling for task list input */
 .toDoList div div {
   display: flex;
   justify-content: space-around;
