@@ -12,7 +12,7 @@ function addTask() {
     const list = document.getElementById("tasks");
     // return if task is empty
     if (task.value === "") {
-        alert("Please add some task!");
+        alert("Please add a valid task!");
         return false;
     }
 
