@@ -6,7 +6,7 @@ document.getElementById("submitBtn").addEventListener("click", e => {
     addTask();
 });
 
-// to cretae task to add to list
+// to create task to add to list
 function addTask() {
     const task = document.getElementById("userInput");
     const list = document.getElementById("tasks");
